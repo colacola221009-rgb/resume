@@ -76,7 +76,7 @@ export const ChatWidget: React.FC = () => {
                 <Bot size={18} className="text-white" />
               </div>
               <div>
-                <h3 className="font-bold text-white text-sm">Ask AI about Alex</h3>
+                <h3 className="font-bold text-white text-sm">Ask AI about {RESUME_DATA.name.split(' ')[0]}</h3>
                 <span className="flex items-center gap-1 text-xs text-green-400">
                   <span className="w-1.5 h-1.5 bg-green-400 rounded-full animate-pulse"></span>
                   Online
