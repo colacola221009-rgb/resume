@@ -3,15 +3,15 @@ import { ResumeData } from './types';
 import { Github, Linkedin, Mail, Globe, Twitter } from 'lucide-react';
 
 export const RESUME_DATA: ResumeData = {
-  name: "Alex Chen",
+  name: "Cola",
   title: "Senior Full Stack Engineer",
   location: "San Francisco, CA",
-  email: "alex.chen@example.com",
+  email: "cola@example.com",
   bio: "Passionate developer with over 6 years of experience building scalable web applications. Expert in React, TypeScript, and Node.js ecosystems. I love turning complex problems into simple, beautiful, and intuitive designs.",
   socials: [
     { platform: "GitHub", url: "https://github.com", icon: "Github" },
     { platform: "LinkedIn", url: "https://linkedin.com", icon: "Linkedin" },
-    { platform: "Portfolio", url: "https://alexchen.dev", icon: "Globe" },
+    { platform: "Portfolio", url: "https://cola.dev", icon: "Globe" },
   ],
   experience: [
     {
